@@ -31,6 +31,7 @@ public class MainActivity extends ActionBarActivity
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
+    private String appTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
